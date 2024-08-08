@@ -1,0 +1,111 @@
+@import "../fonts/style.css";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Gilroy-Bold';
+}
+
+li {
+	list-style: none;
+}
+
+.button {
+	border-radius: 50px;
+	background: rgb(242, 88, 34);
+	border: none;
+	padding: 15px 36px;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	font-weight: 400;
+	transition: ease-in 500ms;
+}
+.button:hover {
+	background: rgb(255, 255, 255);
+	color: rgb(242 88, 34);
+}
+
+.__wrapper {
+	max-width: 1206px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 0 84px;
+}
+
+.header__logo:hover {
+	cursor: pointer;
+}
+
+.header__list {
+	display: flex;
+	gap: 40px;
+}
+
+.header__list :first-child {
+	.header__list__item__link {
+		color: #f25822;
+	}
+}
+
+.header__list :first-child {
+	.header__list__item__link:hover {
+		color: #000000;
+	}
+}
+
+.header__list__item__link {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+	transition: ease-in 500ms;
+}
+
+.header__list__item__link:hover {
+	color: #f25822;
+}
+
+.main__top__content {
+	display: flex;
+	gap: 41px;
+	padding-bottom: 162px;
+}
+
+.main__top__content__text__title {
+	color: rgb(0, 0, 0);
+	font-size: 60px;
+	font-weight: 400;
+}
+
+.main__top__content__text__text {
+	color: rgb(136, 136, 136);
+	font-size: 20px;
+	font-weight: 400;
+	margin: 17px 0 37px;
+}
+
+.main__top__content__text__buttons :last-child {
+	background: #ffffff;
+	color: rgb(170, 170, 170);
+}
+
+.main__top__content__text__buttons :last-child:hover {
+	background: rgb(136, 136, 136);
+	color: #ffffff;
+}
+
+.main__top__content__img {
+	padding-right: 63px;
+}
+
+.main__top__logos {
+	display: flex;
+	justify-content: space-between;
+	padding: 97px 0;
+}
